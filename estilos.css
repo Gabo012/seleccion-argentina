@@ -16,5 +16,49 @@ body {
 
 .carousel-inner {
     max-height:39rem !important;
-  
+}
+
+#numeros-local{
+    margin:0 !important;
+    padding:0 !important;
+}
+#numeros-local div {
+    padding: 0 20px 0 0;   
+    text-align:left;
+    height:48px;
+}
+
+#numeros-local div:not(:last-child) {
+    border-right: 2px solid #141313;
+  }
+#numeros-local div:not(:first-child) {
+    padding-left:20px;
+  }
+
+#numeros-local p{
+    margin:0;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) { 
+    #intro{
+        width:90% !important;
+        margin:auto;
+    }
+
+    @media (max-width:768px) {
+
+        #intro{
+            width:90% !important;
+            margin:auto;
+        }
+}
 }
