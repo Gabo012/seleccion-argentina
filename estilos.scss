@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+// variables
+$color-principal:#3f3f3f;
+$color-letra:green;
+     
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+#menu a, button{
+    font-size: 18px !important;
+    font-weight: 600;
+   }
+
+#menu a{
+    color:$color-principal;
+}
+
+.carousel-inner {
+    max-height:39rem !important;
+}
+
+#numeros-local{
+    margin:0 !important;
+    padding:0 !important;
+}
+#numeros-local div {
+    padding: 0 20px 0 0;   
+    text-align:left;
+    height:48px;
+}
+
+#numeros-local div:not(:last-child) {
+    border-right: 2px solid #141313;
+  }
+#numeros-local div:not(:first-child) {
+    padding-left:20px;
+  }
+
+#numeros-local p{
+    margin:0;
+}
+

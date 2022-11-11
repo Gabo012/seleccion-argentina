@@ -1,64 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 body {
-    font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
 }
 
-#menu a, button{
-    font-size: 18px !important;
-    font-weight: 600;
-   }
+#menu a, button {
+  font-size: 18px !important;
+  font-weight: 600;
+}
 
-#menu a{
-    color:#3f3f3f;
+#menu a {
+  color: #3f3f3f;
 }
 
 .carousel-inner {
-    max-height:39rem !important;
+  max-height: 39rem !important;
 }
 
-#numeros-local{
-    margin:0 !important;
-    padding:0 !important;
+#numeros-local {
+  margin: 0 !important;
+  padding: 0 !important;
 }
+
 #numeros-local div {
-    padding: 0 20px 0 0;   
-    text-align:left;
-    height:48px;
+  padding: 0 20px 0 0;
+  text-align: left;
+  height: 48px;
 }
 
 #numeros-local div:not(:last-child) {
-    border-right: 2px solid #141313;
-  }
+  border-right: 2px solid #141313;
+}
+
 #numeros-local div:not(:first-child) {
-    padding-left:20px;
-  }
-
-#numeros-local p{
-    margin:0;
+  padding-left: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-@media (max-width:768px) { 
-    #intro{
-        width:90% !important;
-        margin:auto;
-    }
-
-    @media (max-width:768px) {
-
-        #intro{
-            width:90% !important;
-            margin:auto;
-        }
-}
-}
+#numeros-local p {
+  margin: 0;
+}/*# sourceMappingURL=estilos.css.map */
