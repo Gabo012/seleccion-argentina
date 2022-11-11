@@ -14,7 +14,7 @@ body {
 }
 
 .carousel-inner {
-  max-height: 39rem !important;
+  max-height: 55rem !important;
 }
 
 #numeros-local {
@@ -38,4 +38,6 @@ body {
 
 #numeros-local p {
   margin: 0;
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/*# sourceMappingURL=estilos.css.map */
